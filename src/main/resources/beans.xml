@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- Xml方式 包扫描，只要标注了@com.Controller、@com.Service、@Repository、@Component注解的都会被自动扫描加入容器 -->
+    <!--<context:component-scan base-package="java"></context:component-scan>-->
+    <!--使用bean标签注册组件，并赋值-->
+    <!--<bean id="user" class="com.bean.User">
+        <property name="name" value="zhangsan"></property>
+        <property name="age" value="18"></property>
+    </bean>-->
+</beans>
