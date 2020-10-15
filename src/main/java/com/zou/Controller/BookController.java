@@ -1,4 +1,4 @@
-package com.Controller;
+package com.zou.Controller;
 
 import org.springframework.stereotype.Controller;
 

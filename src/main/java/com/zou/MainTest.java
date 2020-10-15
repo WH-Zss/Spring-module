@@ -1,7 +1,7 @@
-package com;
+package com.zou;
 
-import com.Config.MainConfig;
-import com.bean.User;
+import com.zou.Config.MainConfig;
+import com.zou.bean.User;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

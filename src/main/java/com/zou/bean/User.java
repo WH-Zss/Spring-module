@@ -1,4 +1,4 @@
-package com.bean;
+package com.zou.bean;
 
 public class User {
     private String name;
